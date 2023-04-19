@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a24fbbf5c2e8b2f91973808db99a2e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3a24fbbf5c2e8b2f91973808db99a2e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a24fbbf5c2e8b2f91973808db99a2e2 = L.map(
+                "map_3a24fbbf5c2e8b2f91973808db99a2e2",
+                {
+                    center: [43.2961743, 5.3699525],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_033b64bbdae9757ed0441f9d5d7433f9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+            var marker_438066c7c75a28db0c3ab7e7b94e72d2 = L.marker(
+                [43.2961743, 5.3699525],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_03a19a26f059dc341c07f5408ea2b1c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e91aceafd6822d8bb510e4c40c2218 = $(`<div id="html_77e91aceafd6822d8bb510e4c40c2218" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Marseille)</div>`)[0];
+                popup_03a19a26f059dc341c07f5408ea2b1c2.setContent(html_77e91aceafd6822d8bb510e4c40c2218);
+            
+        
+
+        marker_438066c7c75a28db0c3ab7e7b94e72d2.bindPopup(popup_03a19a26f059dc341c07f5408ea2b1c2)
+        ;
+
+        
+    
+    
+            var marker_97cba55eb4436458273ca6a9a4e00956 = L.marker(
+                [43.29079, 5.35547],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_a791f342c8bcd74238f578c61c5dcdf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f22b83d0e6318383e3a48001bb3a67a = $(`<div id="html_6f22b83d0e6318383e3a48001bb3a67a" style="width: 100.0%; height: 100.0%;">Plage des Catalans (1.32 km)</div>`)[0];
+                popup_a791f342c8bcd74238f578c61c5dcdf6.setContent(html_6f22b83d0e6318383e3a48001bb3a67a);
+            
+        
+
+        marker_97cba55eb4436458273ca6a9a4e00956.bindPopup(popup_a791f342c8bcd74238f578c61c5dcdf6)
+        ;
+
+        
+    
+    
+            var marker_7a58db6188699a36206b0a7e255516a2 = L.marker(
+                [43.2848, 5.34965],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_c9fae675b1df25f7536f483f196ecf1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5b112c8d46a8845b672eb9887b76f96 = $(`<div id="html_b5b112c8d46a8845b672eb9887b76f96" style="width: 100.0%; height: 100.0%;">Plage du Vallon des Auffes (2.08 km)</div>`)[0];
+                popup_c9fae675b1df25f7536f483f196ecf1e.setContent(html_b5b112c8d46a8845b672eb9887b76f96);
+            
+        
+
+        marker_7a58db6188699a36206b0a7e255516a2.bindPopup(popup_c9fae675b1df25f7536f483f196ecf1e)
+        ;
+
+        
+    
+    
+            var marker_9b7e26868889adaa775f4fa604be36a3 = L.marker(
+                [43.28048, 5.35272],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_9ec92026a5bde61c12e6334f38ea11be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5dd53dc0a13e185dc735f620f4710b3 = $(`<div id="html_d5dd53dc0a13e185dc735f620f4710b3" style="width: 100.0%; height: 100.0%;">Plage de la Fausse Monnaie (2.24 km)</div>`)[0];
+                popup_9ec92026a5bde61c12e6334f38ea11be.setContent(html_d5dd53dc0a13e185dc735f620f4710b3);
+            
+        
+
+        marker_9b7e26868889adaa775f4fa604be36a3.bindPopup(popup_9ec92026a5bde61c12e6334f38ea11be)
+        ;
+
+        
+    
+    
+            var marker_2e3d2cc30424fa6a5020d1144bcaa2d3 = L.marker(
+                [43.2827, 5.34769],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_1e43445eb5114cbae051e379f7b619cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d5115d42ff7abf4e21602b8d8fba5b = $(`<div id="html_43d5115d42ff7abf4e21602b8d8fba5b" style="width: 100.0%; height: 100.0%;">Plage de Malmousque (2.35 km)</div>`)[0];
+                popup_1e43445eb5114cbae051e379f7b619cf.setContent(html_43d5115d42ff7abf4e21602b8d8fba5b);
+            
+        
+
+        marker_2e3d2cc30424fa6a5020d1144bcaa2d3.bindPopup(popup_1e43445eb5114cbae051e379f7b619cf)
+        ;
+
+        
+    
+    
+            var marker_a08ca953a676519dd46fcb7396558a8e = L.marker(
+                [43.28049, 5.35022],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_47b2ebb6ebe12bf5218e650074e3275d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5afa280d477bcb774c0c849a0e80a593 = $(`<div id="html_5afa280d477bcb774c0c849a0e80a593" style="width: 100.0%; height: 100.0%;">Plage de Maldormé (2.37 km)</div>`)[0];
+                popup_47b2ebb6ebe12bf5218e650074e3275d.setContent(html_5afa280d477bcb774c0c849a0e80a593);
+            
+        
+
+        marker_a08ca953a676519dd46fcb7396558a8e.bindPopup(popup_47b2ebb6ebe12bf5218e650074e3275d)
+        ;
+
+        
+    
+    
+            var marker_82bc9f5b9da5e996532edf3eb4662851 = L.marker(
+                [43.28029, 5.34988],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_780bbb73023ddf7c5d13d484f8d83fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796e8a0e78fb3e61cd097ac94cf001cf = $(`<div id="html_796e8a0e78fb3e61cd097ac94cf001cf" style="width: 100.0%; height: 100.0%;">Plage du Petit Nice (2.40 km)</div>`)[0];
+                popup_780bbb73023ddf7c5d13d484f8d83fed.setContent(html_796e8a0e78fb3e61cd097ac94cf001cf);
+            
+        
+
+        marker_82bc9f5b9da5e996532edf3eb4662851.bindPopup(popup_780bbb73023ddf7c5d13d484f8d83fed)
+        ;
+
+        
+    
+    
+            var marker_7d3c1cf862e02bdd7794da7afb10055a = L.marker(
+                [43.27307, 5.36255],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_05598549f7a0b279e330b68456c0c265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5862dc81c9b57a4ca902bd7335d870ed = $(`<div id="html_5862dc81c9b57a4ca902bd7335d870ed" style="width: 100.0%; height: 100.0%;">Plage du Prophète (2.64 km)</div>`)[0];
+                popup_05598549f7a0b279e330b68456c0c265.setContent(html_5862dc81c9b57a4ca902bd7335d870ed);
+            
+        
+
+        marker_7d3c1cf862e02bdd7794da7afb10055a.bindPopup(popup_05598549f7a0b279e330b68456c0c265)
+        ;
+
+        
+    
+    
+            var marker_6e4126c59625a2ff25d8da9e886a1c94 = L.marker(
+                [43.26408, 5.37056],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_a264c8d7faea4847e830b7e813c2c688 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_269a087b6bf2ddb4b5978db3e6f08869 = $(`<div id="html_269a087b6bf2ddb4b5978db3e6f08869" style="width: 100.0%; height: 100.0%;">Plage du Roucas Blanc (3.57 km)</div>`)[0];
+                popup_a264c8d7faea4847e830b7e813c2c688.setContent(html_269a087b6bf2ddb4b5978db3e6f08869);
+            
+        
+
+        marker_6e4126c59625a2ff25d8da9e886a1c94.bindPopup(popup_a264c8d7faea4847e830b7e813c2c688)
+        ;
+
+        
+    
+    
+            var marker_a407a6609d2a7b31e8c18e095009e9f5 = L.marker(
+                [43.26219, 5.37172],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_7b8dd7c0c2d4eb9dc65de4fd0dc72b8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9575a192d0aac88394283c26c11574 = $(`<div id="html_2c9575a192d0aac88394283c26c11574" style="width: 100.0%; height: 100.0%;">Plage de David (3.78 km)</div>`)[0];
+                popup_7b8dd7c0c2d4eb9dc65de4fd0dc72b8d.setContent(html_2c9575a192d0aac88394283c26c11574);
+            
+        
+
+        marker_a407a6609d2a7b31e8c18e095009e9f5.bindPopup(popup_7b8dd7c0c2d4eb9dc65de4fd0dc72b8d)
+        ;
+
+        
+    
+    
+            var marker_024d8eea483e94bb2bc4320a7ca69c75 = L.marker(
+                [43.25953, 5.37492],
+                {}
+            ).addTo(map_3a24fbbf5c2e8b2f91973808db99a2e2);
+        
+    
+        var popup_c58b85115c9d72d55db7387054f14886 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f34923222567306e59094274e1e0817 = $(`<div id="html_8f34923222567306e59094274e1e0817" style="width: 100.0%; height: 100.0%;">Plage de l'Huveaune (4.09 km)</div>`)[0];
+                popup_c58b85115c9d72d55db7387054f14886.setContent(html_8f34923222567306e59094274e1e0817);
+            
+        
+
+        marker_024d8eea483e94bb2bc4320a7ca69c75.bindPopup(popup_c58b85115c9d72d55db7387054f14886)
+        ;
+
+        
+    
+</script>
+</html>

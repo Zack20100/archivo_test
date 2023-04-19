@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b15801c1a844cf7f0e077458c68f85c3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b15801c1a844cf7f0e077458c68f85c3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b15801c1a844cf7f0e077458c68f85c3 = L.map(
+                "map_b15801c1a844cf7f0e077458c68f85c3",
+                {
+                    center: [41.3828939, 2.1774322],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_012a416284c5788fc5300dd1dc4eb9bf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+            var marker_a94933a931b9c366e515e282c7e19eb5 = L.marker(
+                [41.3828939, 2.1774322],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_40e42357a2a070f47e3029dd16a84c9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5538b897f398ebfd7a631bbfe078def2 = $(`<div id="html_5538b897f398ebfd7a631bbfe078def2" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Barcelona)</div>`)[0];
+                popup_40e42357a2a070f47e3029dd16a84c9d.setContent(html_5538b897f398ebfd7a631bbfe078def2);
+            
+        
+
+        marker_a94933a931b9c366e515e282c7e19eb5.bindPopup(popup_40e42357a2a070f47e3029dd16a84c9d)
+        ;
+
+        
+    
+    
+            var marker_c0daf11fa9c5405018a7d9a7d95f0bd8 = L.marker(
+                [41.37954, 2.1929],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_c71da59d561e078f31ca8ee3b2a2b3ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2719c02925407fea5749b9e7abaa943f = $(`<div id="html_2719c02925407fea5749b9e7abaa943f" style="width: 100.0%; height: 100.0%;">Playa de la Barceloneta (1.35 km)</div>`)[0];
+                popup_c71da59d561e078f31ca8ee3b2a2b3ae.setContent(html_2719c02925407fea5749b9e7abaa943f);
+            
+        
+
+        marker_c0daf11fa9c5405018a7d9a7d95f0bd8.bindPopup(popup_c71da59d561e078f31ca8ee3b2a2b3ae)
+        ;
+
+        
+    
+    
+            var marker_2044e5f4f79ecad305844d862b882526 = L.marker(
+                [41.37582, 2.1908],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_b1cf5d6f0913c2e571b7ad23ebdf6c98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b8ba2b82e4240787b424397fb1f3d8 = $(`<div id="html_f5b8ba2b82e4240787b424397fb1f3d8" style="width: 100.0%; height: 100.0%;">Playa de Sant Miquel (1.37 km)</div>`)[0];
+                popup_b1cf5d6f0913c2e571b7ad23ebdf6c98.setContent(html_f5b8ba2b82e4240787b424397fb1f3d8);
+            
+        
+
+        marker_2044e5f4f79ecad305844d862b882526.bindPopup(popup_b1cf5d6f0913c2e571b7ad23ebdf6c98)
+        ;
+
+        
+    
+    
+            var marker_c6419238c4be03c723e9a15a68eae8c8 = L.marker(
+                [41.3729, 2.18946],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_7e9bfd18d53147b0f03ede2feb3e4e6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6df17a2c2936093147ebffa588e07769 = $(`<div id="html_6df17a2c2936093147ebffa588e07769" style="width: 100.0%; height: 100.0%;">Playa de Passeig del Mare Nostrum (1.50 km)</div>`)[0];
+                popup_7e9bfd18d53147b0f03ede2feb3e4e6b.setContent(html_6df17a2c2936093147ebffa588e07769);
+            
+        
+
+        marker_c6419238c4be03c723e9a15a68eae8c8.bindPopup(popup_7e9bfd18d53147b0f03ede2feb3e4e6b)
+        ;
+
+        
+    
+    
+            var marker_17d3e0b6f0617e9fbdc94449eb9b20b8 = L.marker(
+                [41.38393, 2.19586],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_941de97df297edea092eeba2652408be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8471541f547c752648160805d47d4d = $(`<div id="html_ee8471541f547c752648160805d47d4d" style="width: 100.0%; height: 100.0%;">Playa de Somorrostro (1.55 km)</div>`)[0];
+                popup_941de97df297edea092eeba2652408be.setContent(html_ee8471541f547c752648160805d47d4d);
+            
+        
+
+        marker_17d3e0b6f0617e9fbdc94449eb9b20b8.bindPopup(popup_941de97df297edea092eeba2652408be)
+        ;
+
+        
+    
+    
+            var marker_cf6d0406a8dbfdbffd6d29cf63aa2313 = L.marker(
+                [41.37118, 2.18932],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_e40c3c5d099a3f3bf5f50e00d5102dc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b8e00165331146baab442fd0e926254 = $(`<div id="html_0b8e00165331146baab442fd0e926254" style="width: 100.0%; height: 100.0%;">Playa de Sant Sebastià (1.64 km)</div>`)[0];
+                popup_e40c3c5d099a3f3bf5f50e00d5102dc5.setContent(html_0b8e00165331146baab442fd0e926254);
+            
+        
+
+        marker_cf6d0406a8dbfdbffd6d29cf63aa2313.bindPopup(popup_e40c3c5d099a3f3bf5f50e00d5102dc5)
+        ;
+
+        
+    
+    
+            var marker_fbd75a1cd63bbb8408a47cfb38f0a297 = L.marker(
+                [41.38475, 2.19752],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_1fbbfc2ebfedada7dd86e35ca7863610 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5855a012c00ac65b63273bf71dc47ab1 = $(`<div id="html_5855a012c00ac65b63273bf71dc47ab1" style="width: 100.0%; height: 100.0%;">Playa Ciutadella Olímpica (1.69 km)</div>`)[0];
+                popup_1fbbfc2ebfedada7dd86e35ca7863610.setContent(html_5855a012c00ac65b63273bf71dc47ab1);
+            
+        
+
+        marker_fbd75a1cd63bbb8408a47cfb38f0a297.bindPopup(popup_1fbbfc2ebfedada7dd86e35ca7863610)
+        ;
+
+        
+    
+    
+            var marker_364e156d12d923ac0b703f5a030a9c7c = L.marker(
+                [41.3698, 2.18942],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_a0699faff1a4da0064c4800f6e8698b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a081d24a618e40ffa201e5115e1ea44 = $(`<div id="html_0a081d24a618e40ffa201e5115e1ea44" style="width: 100.0%; height: 100.0%;">Playa del Vela (1.77 km)</div>`)[0];
+                popup_a0699faff1a4da0064c4800f6e8698b7.setContent(html_0a081d24a618e40ffa201e5115e1ea44);
+            
+        
+
+        marker_364e156d12d923ac0b703f5a030a9c7c.bindPopup(popup_a0699faff1a4da0064c4800f6e8698b7)
+        ;
+
+        
+    
+    
+            var marker_b2c911caef1e4e71c50a52e4592b62e1 = L.marker(
+                [41.39038, 2.20202],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_b849cb1cac831846c86d404f8b7e5fad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e70ce5709ed12f1624be436977f7cc = $(`<div id="html_d7e70ce5709ed12f1624be436977f7cc" style="width: 100.0%; height: 100.0%;">Playa de La Nova Icària (2.22 km)</div>`)[0];
+                popup_b849cb1cac831846c86d404f8b7e5fad.setContent(html_d7e70ce5709ed12f1624be436977f7cc);
+            
+        
+
+        marker_b2c911caef1e4e71c50a52e4592b62e1.bindPopup(popup_b849cb1cac831846c86d404f8b7e5fad)
+        ;
+
+        
+    
+    
+            var marker_ed23714b6912a28a37fc78bee47bf9a8 = L.marker(
+                [41.39426, 2.20682],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_77674cdba4cbbe079b3aabe5ffe99450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30a1e5c9427e2b295415c60366c61d3c = $(`<div id="html_30a1e5c9427e2b295415c60366c61d3c" style="width: 100.0%; height: 100.0%;">Playa del Bogatell (2.76 km)</div>`)[0];
+                popup_77674cdba4cbbe079b3aabe5ffe99450.setContent(html_30a1e5c9427e2b295415c60366c61d3c);
+            
+        
+
+        marker_ed23714b6912a28a37fc78bee47bf9a8.bindPopup(popup_77674cdba4cbbe079b3aabe5ffe99450)
+        ;
+
+        
+    
+    
+            var marker_02e2a8e87731c01812e5f05621227b31 = L.marker(
+                [41.39848, 2.21194],
+                {}
+            ).addTo(map_b15801c1a844cf7f0e077458c68f85c3);
+        
+    
+        var popup_e75507cbd964f3270e297f0ecaafbfb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f63474391481165ceb2866ba9241cf = $(`<div id="html_c7f63474391481165ceb2866ba9241cf" style="width: 100.0%; height: 100.0%;">Playa de La Mar Bella (3.37 km)</div>`)[0];
+                popup_e75507cbd964f3270e297f0ecaafbfb3.setContent(html_c7f63474391481165ceb2866ba9241cf);
+            
+        
+
+        marker_02e2a8e87731c01812e5f05621227b31.bindPopup(popup_e75507cbd964f3270e297f0ecaafbfb3)
+        ;
+
+        
+    
+</script>
+</html>

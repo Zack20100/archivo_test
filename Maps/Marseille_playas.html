@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f7d3a239e321aa33c0f3fba4ff5dfe46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f7d3a239e321aa33c0f3fba4ff5dfe46" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f7d3a239e321aa33c0f3fba4ff5dfe46 = L.map(
+                "map_f7d3a239e321aa33c0f3fba4ff5dfe46",
+                {
+                    center: [43.2961743, 5.3699525],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5397fc12e6921f4dfd71668509905b2b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f7d3a239e321aa33c0f3fba4ff5dfe46);
+        
+    
+            var marker_eda3aa30a71e47ac00af3c9aa940de94 = L.marker(
+                [43.2961743, 5.3699525],
+                {}
+            ).addTo(map_f7d3a239e321aa33c0f3fba4ff5dfe46);
+        
+    
+        var popup_9da5637314b62a73f090dc0b07bb5598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_746116ac716b3179465178b6d4ee449b = $(`<div id="html_746116ac716b3179465178b6d4ee449b" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Marseille)</div>`)[0];
+                popup_9da5637314b62a73f090dc0b07bb5598.setContent(html_746116ac716b3179465178b6d4ee449b);
+            
+        
+
+        marker_eda3aa30a71e47ac00af3c9aa940de94.bindPopup(popup_9da5637314b62a73f090dc0b07bb5598)
+        ;
+
+        
+    
+    
+            var marker_e6d247214b25dc976f82542c9970184b = L.marker(
+                [43.210098, 5.4622284],
+                {}
+            ).addTo(map_f7d3a239e321aa33c0f3fba4ff5dfe46);
+        
+    
+        var popup_ea6144159cc04e94de5cd98a0349d2cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2d6e4953b29b8488701a004355fef61 = $(`<div id="html_e2d6e4953b29b8488701a004355fef61" style="width: 100.0%; height: 100.0%;">Queyrons (12.15 km)</div>`)[0];
+                popup_ea6144159cc04e94de5cd98a0349d2cd.setContent(html_e2d6e4953b29b8488701a004355fef61);
+            
+        
+
+        marker_e6d247214b25dc976f82542c9970184b.bindPopup(popup_ea6144159cc04e94de5cd98a0349d2cd)
+        ;
+
+        
+    
+    
+            var marker_391d586f9295fc05ca910ca5b5c30d67 = L.marker(
+                [43.208603, 5.549194],
+                {}
+            ).addTo(map_f7d3a239e321aa33c0f3fba4ff5dfe46);
+        
+    
+        var popup_677e299c870534a3d5097cd99593dfb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52cfc460110a0bc04afe5a88375a57c0 = $(`<div id="html_52cfc460110a0bc04afe5a88375a57c0" style="width: 100.0%; height: 100.0%;">Plage Cap Canaille (17.51 km)</div>`)[0];
+                popup_677e299c870534a3d5097cd99593dfb2.setContent(html_52cfc460110a0bc04afe5a88375a57c0);
+            
+        
+
+        marker_391d586f9295fc05ca910ca5b5c30d67.bindPopup(popup_677e299c870534a3d5097cd99593dfb2)
+        ;
+
+        
+    
+    
+            var marker_e0d9e594de1025cfc08d682e2626868b = L.marker(
+                [43.3888331, 5.6193917],
+                {}
+            ).addTo(map_f7d3a239e321aa33c0f3fba4ff5dfe46);
+        
+    
+        var popup_3e4fe459c99038d3bba0da8bef77f2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9594bbc156b4829d4e650ac01c0097e4 = $(`<div id="html_9594bbc156b4829d4e650ac01c0097e4" style="width: 100.0%; height: 100.0%;">Inconnu (22.70 km)</div>`)[0];
+                popup_3e4fe459c99038d3bba0da8bef77f2ed.setContent(html_9594bbc156b4829d4e650ac01c0097e4);
+            
+        
+
+        marker_e0d9e594de1025cfc08d682e2626868b.bindPopup(popup_3e4fe459c99038d3bba0da8bef77f2ed)
+        ;
+
+        
+    
+</script>
+</html>

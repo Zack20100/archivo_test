@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa45a89ac1c92338623d25b9fdd94e9d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_aa45a89ac1c92338623d25b9fdd94e9d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aa45a89ac1c92338623d25b9fdd94e9d = L.map(
+                "map_aa45a89ac1c92338623d25b9fdd94e9d",
+                {
+                    center: [43.7009358, 7.2683912],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_22d0cd7fdff0c2c497ec8f0fb88269d9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+            var marker_e46a0c71e3442143f2c25eb14c2b604b = L.marker(
+                [43.7009358, 7.2683912],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_21db9ec41288c21eae47acad2e72b4c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7834e8c86471fc42caeac5eac047b172 = $(`<div id="html_7834e8c86471fc42caeac5eac047b172" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Nice)</div>`)[0];
+                popup_21db9ec41288c21eae47acad2e72b4c4.setContent(html_7834e8c86471fc42caeac5eac047b172);
+            
+        
+
+        marker_e46a0c71e3442143f2c25eb14c2b604b.bindPopup(popup_21db9ec41288c21eae47acad2e72b4c4)
+        ;
+
+        
+    
+    
+            var marker_a9b7816de65d82562683c4042e5ecb33 = L.marker(
+                [43.7812092, 7.5102456],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_77019529a8ef6a9d51f9c2f9d56e1a65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_783a980d1a41131bab88319d3ef6b962 = $(`<div id="html_783a980d1a41131bab88319d3ef6b962" style="width: 100.0%; height: 100.0%;">Festival Plage (21.43 km)</div>`)[0];
+                popup_77019529a8ef6a9d51f9c2f9d56e1a65.setContent(html_783a980d1a41131bab88319d3ef6b962);
+            
+        
+
+        marker_a9b7816de65d82562683c4042e5ecb33.bindPopup(popup_77019529a8ef6a9d51f9c2f9d56e1a65)
+        ;
+
+        
+    
+    
+            var marker_560253270b8654c11a7b9f06f74a6176 = L.marker(
+                [43.9434372, 7.1947915],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_a105e7424267a9783de7bea17b47ebb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c81be6c0600241f1e681eb97bbea17 = $(`<div id="html_46c81be6c0600241f1e681eb97bbea17" style="width: 100.0%; height: 100.0%;">Inconnu (27.59 km)</div>`)[0];
+                popup_a105e7424267a9783de7bea17b47ebb0.setContent(html_46c81be6c0600241f1e681eb97bbea17);
+            
+        
+
+        marker_560253270b8654c11a7b9f06f74a6176.bindPopup(popup_a105e7424267a9783de7bea17b47ebb0)
+        ;
+
+        
+    
+    
+            var marker_f1556c8cce6f9e96693eec70db5b13d5 = L.marker(
+                [43.687128, 7.3226097],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_49fd5ed93c74a9186b106a53fa6692cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b20206ca274fb205533bcb73bdebc71 = $(`<div id="html_3b20206ca274fb205533bcb73bdebc71" style="width: 100.0%; height: 100.0%;">Plage de la Gavinette (4.63 km)</div>`)[0];
+                popup_49fd5ed93c74a9186b106a53fa6692cb.setContent(html_3b20206ca274fb205533bcb73bdebc71);
+            
+        
+
+        marker_f1556c8cce6f9e96693eec70db5b13d5.bindPopup(popup_49fd5ed93c74a9186b106a53fa6692cb)
+        ;
+
+        
+    
+    
+            var marker_5be798d011f5086d643493d047325925 = L.marker(
+                [43.9553277, 6.8598036],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_08d95a32e558a9ebe7c22955632ee141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f902197948c39bfff8d7e1432f00330 = $(`<div id="html_7f902197948c39bfff8d7e1432f00330" style="width: 100.0%; height: 100.0%;">Plage naturiste (43.35 km)</div>`)[0];
+                popup_08d95a32e558a9ebe7c22955632ee141.setContent(html_7f902197948c39bfff8d7e1432f00330);
+            
+        
+
+        marker_5be798d011f5086d643493d047325925.bindPopup(popup_08d95a32e558a9ebe7c22955632ee141)
+        ;
+
+        
+    
+    
+            var marker_00504f597a515cf6952fc3083a46aa70 = L.marker(
+                [43.7591569, 7.4563944],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_d036e2644cd1a01e03de3fd1658c67ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ea53fdd2c2b291d10286feafb493097 = $(`<div id="html_8ea53fdd2c2b291d10286feafb493097" style="width: 100.0%; height: 100.0%;">Plage naturiste Est (16.47 km)</div>`)[0];
+                popup_d036e2644cd1a01e03de3fd1658c67ec.setContent(html_8ea53fdd2c2b291d10286feafb493097);
+            
+        
+
+        marker_00504f597a515cf6952fc3083a46aa70.bindPopup(popup_d036e2644cd1a01e03de3fd1658c67ec)
+        ;
+
+        
+    
+    
+            var marker_efd6cd1b9c26975fee9c44671ffcd134 = L.marker(
+                [43.7578581, 7.4518291],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_c0ad2867db121d9fb3a2f1ba6c805f83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cb05841bd1d0e8c2c8037803907d7c5 = $(`<div id="html_1cb05841bd1d0e8c2c8037803907d7c5" style="width: 100.0%; height: 100.0%;">Plage naturiste Ouest (16.08 km)</div>`)[0];
+                popup_c0ad2867db121d9fb3a2f1ba6c805f83.setContent(html_1cb05841bd1d0e8c2c8037803907d7c5);
+            
+        
+
+        marker_efd6cd1b9c26975fee9c44671ffcd134.bindPopup(popup_c0ad2867db121d9fb3a2f1ba6c805f83)
+        ;
+
+        
+    
+    
+            var marker_5bc98b9d7a2f1b58662511b9ad84d6b5 = L.marker(
+                [43.7223344, 7.3617044],
+                {}
+            ).addTo(map_aa45a89ac1c92338623d25b9fdd94e9d);
+        
+    
+        var popup_d4b01062726fefff8703fc4175653074 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0239a4e32112044368813c5c6f69ed87 = $(`<div id="html_0239a4e32112044368813c5c6f69ed87" style="width: 100.0%; height: 100.0%;">Plage naturiste (7.89 km)</div>`)[0];
+                popup_d4b01062726fefff8703fc4175653074.setContent(html_0239a4e32112044368813c5c6f69ed87);
+            
+        
+
+        marker_5bc98b9d7a2f1b58662511b9ad84d6b5.bindPopup(popup_d4b01062726fefff8703fc4175653074)
+        ;
+
+        
+    
+</script>
+</html>

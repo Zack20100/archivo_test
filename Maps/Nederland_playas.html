@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_916fa8da871a9d9861ce53bc7fad3796 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_916fa8da871a9d9861ce53bc7fad3796" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_916fa8da871a9d9861ce53bc7fad3796 = L.map(
+                "map_916fa8da871a9d9861ce53bc7fad3796",
+                {
+                    center: [52.3730796, 4.8924534],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_373b986c1965c791e5f7dcba30b16d82 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+            var marker_8415d736d4dd1688b5e451285fb0007a = L.marker(
+                [52.3730796, 4.8924534],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_60489122a126a3f377d0a34a6e3d8722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ddbdd68b66d86dc47fd18c0deaff37 = $(`<div id="html_08ddbdd68b66d86dc47fd18c0deaff37" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Amsterdam)</div>`)[0];
+                popup_60489122a126a3f377d0a34a6e3d8722.setContent(html_08ddbdd68b66d86dc47fd18c0deaff37);
+            
+        
+
+        marker_8415d736d4dd1688b5e451285fb0007a.bindPopup(popup_60489122a126a3f377d0a34a6e3d8722)
+        ;
+
+        
+    
+    
+            var marker_0b490ca009a500652767d4b8c2a0e1c3 = L.marker(
+                [52.38901, 4.89146],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_5b7e19190a3d571987b28f3feb020330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a814776d95f75f96b2269e24df64c81 = $(`<div id="html_3a814776d95f75f96b2269e24df64c81" style="width: 100.0%; height: 100.0%;">Paaseiland (1.77 km)</div>`)[0];
+                popup_5b7e19190a3d571987b28f3feb020330.setContent(html_3a814776d95f75f96b2269e24df64c81);
+            
+        
+
+        marker_0b490ca009a500652767d4b8c2a0e1c3.bindPopup(popup_5b7e19190a3d571987b28f3feb020330)
+        ;
+
+        
+    
+    
+            var marker_d40652bb3b3a14a0ece890598cccdd16 = L.marker(
+                [52.3425, 4.84932],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_6224019cb3b20a7324acf79d9424f912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec076718b988c345ea156b69652f94e5 = $(`<div id="html_ec076718b988c345ea156b69652f94e5" style="width: 100.0%; height: 100.0%;">De Hoge Dijk (4.50 km)</div>`)[0];
+                popup_6224019cb3b20a7324acf79d9424f912.setContent(html_ec076718b988c345ea156b69652f94e5);
+            
+        
+
+        marker_d40652bb3b3a14a0ece890598cccdd16.bindPopup(popup_6224019cb3b20a7324acf79d9424f912)
+        ;
+
+        
+    
+    
+            var marker_81ca8f28a90c45049616e7a62a9f2ffb = L.marker(
+                [52.37167, 4.82257],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_a2275ef5e3db9207e43a756ff20d9fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f45da879f1669fa99464890cdeffb62 = $(`<div id="html_4f45da879f1669fa99464890cdeffb62" style="width: 100.0%; height: 100.0%;">Strand Sloterplas (4.76 km)</div>`)[0];
+                popup_a2275ef5e3db9207e43a756ff20d9fe1.setContent(html_4f45da879f1669fa99464890cdeffb62);
+            
+        
+
+        marker_81ca8f28a90c45049616e7a62a9f2ffb.bindPopup(popup_a2275ef5e3db9207e43a756ff20d9fe1)
+        ;
+
+        
+    
+    
+            var marker_587df449f73ee028a21ca65d47aee39b = L.marker(
+                [52.36843, 4.81663],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_6248bd2e8d1b245b312ebfefd910c4ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b37c141947cd379758118669c5501ff0 = $(`<div id="html_b37c141947cd379758118669c5501ff0" style="width: 100.0%; height: 100.0%;">Sloterparkbad (5.19 km)</div>`)[0];
+                popup_6248bd2e8d1b245b312ebfefd910c4ad.setContent(html_b37c141947cd379758118669c5501ff0);
+            
+        
+
+        marker_587df449f73ee028a21ca65d47aee39b.bindPopup(popup_6248bd2e8d1b245b312ebfefd910c4ad)
+        ;
+
+        
+    
+    
+            var marker_db14841114bd8e97a35a4debfab51460 = L.marker(
+                [52.35417, 4.98609],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_645b8e5067b0c2a5ab68ef180e7699d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82934bef43ed936e7bbfb0b23c69e7a = $(`<div id="html_d82934bef43ed936e7bbfb0b23c69e7a" style="width: 100.0%; height: 100.0%;">Diemerpark (6.72 km)</div>`)[0];
+                popup_645b8e5067b0c2a5ab68ef180e7699d8.setContent(html_d82934bef43ed936e7bbfb0b23c69e7a);
+            
+        
+
+        marker_db14841114bd8e97a35a4debfab51460.bindPopup(popup_645b8e5067b0c2a5ab68ef180e7699d8)
+        ;
+
+        
+    
+    
+            var marker_dc49ba02db1bbc03c2419e5373f848a7 = L.marker(
+                [52.35417, 4.9864],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_cf415070ee4cb0933ac6d97d2fe5a78b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44457af6c6141dea3593aa40d49a24e4 = $(`<div id="html_44457af6c6141dea3593aa40d49a24e4" style="width: 100.0%; height: 100.0%;">Diemerstrandje (6.74 km)</div>`)[0];
+                popup_cf415070ee4cb0933ac6d97d2fe5a78b.setContent(html_44457af6c6141dea3593aa40d49a24e4);
+            
+        
+
+        marker_dc49ba02db1bbc03c2419e5373f848a7.bindPopup(popup_cf415070ee4cb0933ac6d97d2fe5a78b)
+        ;
+
+        
+    
+    
+            var marker_2fd081a91f616f15d9132492794af3f4 = L.marker(
+                [52.33432, 4.81399],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_d55fe451aee83dade70b2c4c57a8cbee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7834dae98681c352991bc88cda51b12 = $(`<div id="html_f7834dae98681c352991bc88cda51b12" style="width: 100.0%; height: 100.0%;">Nieuwe Meer Noordoever (6.87 km)</div>`)[0];
+                popup_d55fe451aee83dade70b2c4c57a8cbee.setContent(html_f7834dae98681c352991bc88cda51b12);
+            
+        
+
+        marker_2fd081a91f616f15d9132492794af3f4.bindPopup(popup_d55fe451aee83dade70b2c4c57a8cbee)
+        ;
+
+        
+    
+    
+            var marker_2e32f73f4ef4a5ee107bcdce25e4cc9c = L.marker(
+                [52.33337, 4.81191],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_868515dee66fe0e64061374c4e398e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0375fd3b1c39b550c274807d51ab4c7e = $(`<div id="html_0375fd3b1c39b550c274807d51ab4c7e" style="width: 100.0%; height: 100.0%;">Nieuwe Meer Westzijde Oeverlanden (7.05 km)</div>`)[0];
+                popup_868515dee66fe0e64061374c4e398e38.setContent(html_0375fd3b1c39b550c274807d51ab4c7e);
+            
+        
+
+        marker_2e32f73f4ef4a5ee107bcdce25e4cc9c.bindPopup(popup_868515dee66fe0e64061374c4e398e38)
+        ;
+
+        
+    
+    
+            var marker_ceeed404355160120e92074dff4b5d61 = L.marker(
+                [52.43858, 4.89411],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_a4e98a8881c77c3e86c22dff3c88aa86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76a1a362c1452844b06b62718d60a8ea = $(`<div id="html_76a1a362c1452844b06b62718d60a8ea" style="width: 100.0%; height: 100.0%;">Het Twiske Doesstrand (7.29 km)</div>`)[0];
+                popup_a4e98a8881c77c3e86c22dff3c88aa86.setContent(html_76a1a362c1452844b06b62718d60a8ea);
+            
+        
+
+        marker_ceeed404355160120e92074dff4b5d61.bindPopup(popup_a4e98a8881c77c3e86c22dff3c88aa86)
+        ;
+
+        
+    
+    
+            var marker_5ec84c80495e4567539d388958a6ecac = L.marker(
+                [52.31992, 4.82743],
+                {}
+            ).addTo(map_916fa8da871a9d9861ce53bc7fad3796);
+        
+    
+        var popup_0f1f98bd5a9c2881df0ca5124194418f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f75352dce94d223d6c58e5ca89e4a748 = $(`<div id="html_f75352dce94d223d6c58e5ca89e4a748" style="width: 100.0%; height: 100.0%;">De Grote Speelweide (7.39 km)</div>`)[0];
+                popup_0f1f98bd5a9c2881df0ca5124194418f.setContent(html_f75352dce94d223d6c58e5ca89e4a748);
+            
+        
+
+        marker_5ec84c80495e4567539d388958a6ecac.bindPopup(popup_0f1f98bd5a9c2881df0ca5124194418f)
+        ;
+
+        
+    
+</script>
+</html>

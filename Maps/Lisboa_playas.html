@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a461ce2b29057ba91bb62f872cf75ff0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a461ce2b29057ba91bb62f872cf75ff0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a461ce2b29057ba91bb62f872cf75ff0 = L.map(
+                "map_a461ce2b29057ba91bb62f872cf75ff0",
+                {
+                    center: [38.7077507, -9.1365919],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ca3d51258f42273fb5581004241c77e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a461ce2b29057ba91bb62f872cf75ff0);
+        
+    
+            var marker_c4e444eda9e5b706c9f5edac1de51151 = L.marker(
+                [38.7077507, -9.1365919],
+                {}
+            ).addTo(map_a461ce2b29057ba91bb62f872cf75ff0);
+        
+    
+        var popup_941062198900311afaaa307c60061ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9feeb6d515ac1ff1726961d63dd6501e = $(`<div id="html_9feeb6d515ac1ff1726961d63dd6501e" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Lisboa)</div>`)[0];
+                popup_941062198900311afaaa307c60061ed8.setContent(html_9feeb6d515ac1ff1726961d63dd6501e);
+            
+        
+
+        marker_c4e444eda9e5b706c9f5edac1de51151.bindPopup(popup_941062198900311afaaa307c60061ed8)
+        ;
+
+        
+    
+    
+            var marker_2fa30a99fed052040f240c3121b124be = L.marker(
+                [38.9755499, -9.4204061],
+                {}
+            ).addTo(map_a461ce2b29057ba91bb62f872cf75ff0);
+        
+    
+        var popup_45c9c7d51c631975094b429f28978429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5308f9e7d2de5970a4ccb01411f4cf4d = $(`<div id="html_5308f9e7d2de5970a4ccb01411f4cf4d" style="width: 100.0%; height: 100.0%;">Praia do Matadouro (38.61 km)</div>`)[0];
+                popup_45c9c7d51c631975094b429f28978429.setContent(html_5308f9e7d2de5970a4ccb01411f4cf4d);
+            
+        
+
+        marker_2fa30a99fed052040f240c3121b124be.bindPopup(popup_45c9c7d51c631975094b429f28978429)
+        ;
+
+        
+    
+    
+            var marker_e19ace236346632b89103e8869af152d = L.marker(
+                [39.2139868, -9.3443104],
+                {}
+            ).addTo(map_a461ce2b29057ba91bb62f872cf75ff0);
+        
+    
+        var popup_e2b01e13b8cf96280e0a447623a301e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72b2c56f263756968ab08acb7db5e845 = $(`<div id="html_72b2c56f263756968ab08acb7db5e845" style="width: 100.0%; height: 100.0%;">Praia de Porto Dinheiro (59.01 km)</div>`)[0];
+                popup_e2b01e13b8cf96280e0a447623a301e8.setContent(html_72b2c56f263756968ab08acb7db5e845);
+            
+        
+
+        marker_e19ace236346632b89103e8869af152d.bindPopup(popup_e2b01e13b8cf96280e0a447623a301e8)
+        ;
+
+        
+    
+</script>
+</html>

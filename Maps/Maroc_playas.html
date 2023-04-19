@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9 = L.map(
+                "map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9",
+                {
+                    center: [33.5945144, -7.6200284],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98bb529baf664f5e1ff1a9a75abce42d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+            var marker_850f334d9414a0d59acb62eb6239f9fb = L.marker(
+                [33.5945144, -7.6200284],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_d8d0296ee6013c3869dbeed6519d2063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b6cc30f73f0475c9531c0e614bc202d = $(`<div id="html_1b6cc30f73f0475c9531c0e614bc202d" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Casablanca)</div>`)[0];
+                popup_d8d0296ee6013c3869dbeed6519d2063.setContent(html_1b6cc30f73f0475c9531c0e614bc202d);
+            
+        
+
+        marker_850f334d9414a0d59acb62eb6239f9fb.bindPopup(popup_d8d0296ee6013c3869dbeed6519d2063)
+        ;
+
+        
+    
+    
+            var marker_83bfaf7bd1971be1db181feabe8cd15f = L.marker(
+                [33.60125, -7.6627],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_357571ed5d9f9febb9e919cf7e6e261d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df20aa39b7882938d020a559082f731d = $(`<div id="html_df20aa39b7882938d020a559082f731d" style="width: 100.0%; height: 100.0%;">Miami (4.03 km)</div>`)[0];
+                popup_357571ed5d9f9febb9e919cf7e6e261d.setContent(html_df20aa39b7882938d020a559082f731d);
+            
+        
+
+        marker_83bfaf7bd1971be1db181feabe8cd15f.bindPopup(popup_357571ed5d9f9febb9e919cf7e6e261d)
+        ;
+
+        
+    
+    
+            var marker_2cb409a75fdf3d502704f1b39c951a02 = L.marker(
+                [33.59019, -7.67966],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_b60bfe5e42eea8b7e743b88a51153e55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_476a94d91b2f23971638d0d49dfd0637 = $(`<div id="html_476a94d91b2f23971638d0d49dfd0637" style="width: 100.0%; height: 100.0%;">Ain Diab (5.56 km)</div>`)[0];
+                popup_b60bfe5e42eea8b7e743b88a51153e55.setContent(html_476a94d91b2f23971638d0d49dfd0637);
+            
+        
+
+        marker_2cb409a75fdf3d502704f1b39c951a02.bindPopup(popup_b60bfe5e42eea8b7e743b88a51153e55)
+        ;
+
+        
+    
+    
+            var marker_63249cd806412a0d896454cf3ebba681 = L.marker(
+                [33.58926, -7.68131],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_48162f962d3462d834f3c3e957f7de0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbe40ffb7abb9a912a0ea67437084c2a = $(`<div id="html_dbe40ffb7abb9a912a0ea67437084c2a" style="width: 100.0%; height: 100.0%;">Ain Diab II (5.72 km)</div>`)[0];
+                popup_48162f962d3462d834f3c3e957f7de0b.setContent(html_dbe40ffb7abb9a912a0ea67437084c2a);
+            
+        
+
+        marker_63249cd806412a0d896454cf3ebba681.bindPopup(popup_48162f962d3462d834f3c3e957f7de0b)
+        ;
+
+        
+    
+    
+            var marker_a7176e9404751b729e027fe98b458bc5 = L.marker(
+                [33.58878, -7.68228],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_fd9f8865521d28f878882cb81b1bff25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd264daf0bf81c0e00b6d0dce07a44f = $(`<div id="html_0dd264daf0bf81c0e00b6d0dce07a44f" style="width: 100.0%; height: 100.0%;">Ain Diab IV (5.81 km)</div>`)[0];
+                popup_fd9f8865521d28f878882cb81b1bff25.setContent(html_0dd264daf0bf81c0e00b6d0dce07a44f);
+            
+        
+
+        marker_a7176e9404751b729e027fe98b458bc5.bindPopup(popup_fd9f8865521d28f878882cb81b1bff25)
+        ;
+
+        
+    
+    
+            var marker_b25fc0b8bb6a9fe64485472988d459cf = L.marker(
+                [33.58814, -7.68356],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_a2751789f2135575f51013f273248877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed161b7013a7d3302098b6aa0f332b92 = $(`<div id="html_ed161b7013a7d3302098b6aa0f332b92" style="width: 100.0%; height: 100.0%;">Ain Diab V (5.94 km)</div>`)[0];
+                popup_a2751789f2135575f51013f273248877.setContent(html_ed161b7013a7d3302098b6aa0f332b92);
+            
+        
+
+        marker_b25fc0b8bb6a9fe64485472988d459cf.bindPopup(popup_a2751789f2135575f51013f273248877)
+        ;
+
+        
+    
+    
+            var marker_5c8fa7714becb6aba21a12ab3b65b8fe = L.marker(
+                [33.58767, -7.68453],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_faba346573da5d63df8d50708409d2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d056ab2a7f8e73efbacd1e861f405e4c = $(`<div id="html_d056ab2a7f8e73efbacd1e861f405e4c" style="width: 100.0%; height: 100.0%;">Ain Diab VI (6.04 km)</div>`)[0];
+                popup_faba346573da5d63df8d50708409d2ed.setContent(html_d056ab2a7f8e73efbacd1e861f405e4c);
+            
+        
+
+        marker_5c8fa7714becb6aba21a12ab3b65b8fe.bindPopup(popup_faba346573da5d63df8d50708409d2ed)
+        ;
+
+        
+    
+    
+            var marker_339e5d7a4bdd6fe454100566be8138d7 = L.marker(
+                [33.58514, -7.68938],
+                {}
+            ).addTo(map_ec4e2fe8fcb5ff3e0eefafad59ae9ac9);
+        
+    
+        var popup_41a2b281c46f7c376740abf9dc7ab483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_432982ac6173f6fff6a621ba61b42abe = $(`<div id="html_432982ac6173f6fff6a621ba61b42abe" style="width: 100.0%; height: 100.0%;">Plage Aïn Diab (6.52 km)</div>`)[0];
+                popup_41a2b281c46f7c376740abf9dc7ab483.setContent(html_432982ac6173f6fff6a621ba61b42abe);
+            
+        
+
+        marker_339e5d7a4bdd6fe454100566be8138d7.bindPopup(popup_41a2b281c46f7c376740abf9dc7ab483)
+        ;
+
+        
+    
+</script>
+</html>

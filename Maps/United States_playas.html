@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e86b999a93a75c75ed4c58c8ee92bd80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e86b999a93a75c75ed4c58c8ee92bd80" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e86b999a93a75c75ed4c58c8ee92bd80 = L.map(
+                "map_e86b999a93a75c75ed4c58c8ee92bd80",
+                {
+                    center: [42.3554334, -71.060511],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1abcdd0c7c0d679aa17199d2d9774870 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e86b999a93a75c75ed4c58c8ee92bd80);
+        
+    
+            var marker_d9a0b027827e41b00dd95080242bb011 = L.marker(
+                [42.3554334, -71.060511],
+                {}
+            ).addTo(map_e86b999a93a75c75ed4c58c8ee92bd80);
+        
+    
+        var popup_5f3b70880166cf76f506dc9ac3cecc55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18010a50e9e4be599cdeaec46e9dde39 = $(`<div id="html_18010a50e9e4be599cdeaec46e9dde39" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Boston)</div>`)[0];
+                popup_5f3b70880166cf76f506dc9ac3cecc55.setContent(html_18010a50e9e4be599cdeaec46e9dde39);
+            
+        
+
+        marker_d9a0b027827e41b00dd95080242bb011.bindPopup(popup_5f3b70880166cf76f506dc9ac3cecc55)
+        ;
+
+        
+    
+    
+            var marker_c4acae465be22c65e0f8aa71172af6e1 = L.marker(
+                [42.2931542, -71.0431054],
+                {}
+            ).addTo(map_e86b999a93a75c75ed4c58c8ee92bd80);
+        
+    
+        var popup_005830a38a723a78101427489ea2c5be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91e2be456489e39a0e44e92ec9e87abe = $(`<div id="html_91e2be456489e39a0e44e92ec9e87abe" style="width: 100.0%; height: 100.0%;">Tenean Beach (7.07 km)</div>`)[0];
+                popup_005830a38a723a78101427489ea2c5be.setContent(html_91e2be456489e39a0e44e92ec9e87abe);
+            
+        
+
+        marker_c4acae465be22c65e0f8aa71172af6e1.bindPopup(popup_005830a38a723a78101427489ea2c5be)
+        ;
+
+        
+    
+</script>
+</html>

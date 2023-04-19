@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b602ccad3d07d9577ce74f11449eb0dc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b602ccad3d07d9577ce74f11449eb0dc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b602ccad3d07d9577ce74f11449eb0dc = L.map(
+                "map_b602ccad3d07d9577ce74f11449eb0dc",
+                {
+                    center: [42.3621161, -71.0620121],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_800ad1e4689b4bdd53b28c46858b83a9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+            var marker_b8f284989d959880d4f86ab1becd7a93 = L.marker(
+                [42.3621161, -71.0620121],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_281c666f8b0bc8108f16c6ab5cc7e7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fe0229c87277ec9eabe1dcb90629baf = $(`<div id="html_4fe0229c87277ec9eabe1dcb90629baf" style="width: 100.0%; height: 100.0%;">Vous êtes ici (Boston)</div>`)[0];
+                popup_281c666f8b0bc8108f16c6ab5cc7e7f0.setContent(html_4fe0229c87277ec9eabe1dcb90629baf);
+            
+        
+
+        marker_b8f284989d959880d4f86ab1becd7a93.bindPopup(popup_281c666f8b0bc8108f16c6ab5cc7e7f0)
+        ;
+
+        
+    
+    
+            var marker_00161fe7706011b5ffd1bde89fc9bcc2 = L.marker(
+                [42.35433, -71.11161],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_017ff075f7b3baebc34c441281212356 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_726cc46278bf475b9cc9f9098e2192fc = $(`<div id="html_726cc46278bf475b9cc9f9098e2192fc" style="width: 100.0%; height: 100.0%;">Magazine Beach (4.18 km)</div>`)[0];
+                popup_017ff075f7b3baebc34c441281212356.setContent(html_726cc46278bf475b9cc9f9098e2192fc);
+            
+        
+
+        marker_00161fe7706011b5ffd1bde89fc9bcc2.bindPopup(popup_017ff075f7b3baebc34c441281212356)
+        ;
+
+        
+    
+    
+            var marker_0ed7412d3fb5034dce4e7287ae595e38 = L.marker(
+                [42.32863, -71.03604],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_bcee75283bf363d20f2dd14a2b6003b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95a823dcd1baec98aeb872592e765ca6 = $(`<div id="html_95a823dcd1baec98aeb872592e765ca6" style="width: 100.0%; height: 100.0%;">L Street Beach (4.29 km)</div>`)[0];
+                popup_bcee75283bf363d20f2dd14a2b6003b6.setContent(html_95a823dcd1baec98aeb872592e765ca6);
+            
+        
+
+        marker_0ed7412d3fb5034dce4e7287ae595e38.bindPopup(popup_bcee75283bf363d20f2dd14a2b6003b6)
+        ;
+
+        
+    
+    
+            var marker_59a1fa8823f91b4f908f60c40f34df1c = L.marker(
+                [42.3836, -71.01102],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_0606a21903c31a6dba8caa03957e3219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3696e19288a02a38ef3a5f1450df4a2b = $(`<div id="html_3696e19288a02a38ef3a5f1450df4a2b" style="width: 100.0%; height: 100.0%;">Constitution Beach (4.83 km)</div>`)[0];
+                popup_0606a21903c31a6dba8caa03957e3219.setContent(html_3696e19288a02a38ef3a5f1450df4a2b);
+            
+        
+
+        marker_59a1fa8823f91b4f908f60c40f34df1c.bindPopup(popup_0606a21903c31a6dba8caa03957e3219)
+        ;
+
+        
+    
+    
+            var marker_0e0e7c867ffbb5cdae9f708c20ce8cfc = L.marker(
+                [42.31171, -71.0449],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_74ce5c3851f7ad5155c2833c415c0926 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61b7de1f39e34e1f4265d51736ac9770 = $(`<div id="html_61b7de1f39e34e1f4265d51736ac9770" style="width: 100.0%; height: 100.0%;">Savin Hill Beach (5.77 km)</div>`)[0];
+                popup_74ce5c3851f7ad5155c2833c415c0926.setContent(html_61b7de1f39e34e1f4265d51736ac9770);
+            
+        
+
+        marker_0e0e7c867ffbb5cdae9f708c20ce8cfc.bindPopup(popup_74ce5c3851f7ad5155c2833c415c0926)
+        ;
+
+        
+    
+    
+            var marker_6a2fca1f12540f859eb3f47f2336ada5 = L.marker(
+                [42.36377, -70.96954],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_3789fdf9cf3ca4f79968beace6bdcfda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f93dcb578762f99144432d12514ce71 = $(`<div id="html_8f93dcb578762f99144432d12514ce71" style="width: 100.0%; height: 100.0%;">Yirrell Beach (7.62 km)</div>`)[0];
+                popup_3789fdf9cf3ca4f79968beace6bdcfda.setContent(html_8f93dcb578762f99144432d12514ce71);
+            
+        
+
+        marker_6a2fca1f12540f859eb3f47f2336ada5.bindPopup(popup_3789fdf9cf3ca4f79968beace6bdcfda)
+        ;
+
+        
+    
+    
+            var marker_afb77268027fc102de52ab9365a250b3 = L.marker(
+                [42.37712, -70.97144],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_3d18fe0a30489ad1a9b5078236f06b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f7712a67941978095ff23837634b916 = $(`<div id="html_8f7712a67941978095ff23837634b916" style="width: 100.0%; height: 100.0%;">Winthrop Beach (7.64 km)</div>`)[0];
+                popup_3d18fe0a30489ad1a9b5078236f06b21.setContent(html_8f7712a67941978095ff23837634b916);
+            
+        
+
+        marker_afb77268027fc102de52ab9365a250b3.bindPopup(popup_3d18fe0a30489ad1a9b5078236f06b21)
+        ;
+
+        
+    
+    
+            var marker_135a0a86904e8af568eca972538c916f = L.marker(
+                [42.30165, -71.01332],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_deba7b742783bec0e674a8efdfa58e35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dcf3207a0e08dddaecd4cf94c9173e7 = $(`<div id="html_9dcf3207a0e08dddaecd4cf94c9173e7" style="width: 100.0%; height: 100.0%;">Nickerson Beach (7.82 km)</div>`)[0];
+                popup_deba7b742783bec0e674a8efdfa58e35.setContent(html_9dcf3207a0e08dddaecd4cf94c9173e7);
+            
+        
+
+        marker_135a0a86904e8af568eca972538c916f.bindPopup(popup_deba7b742783bec0e674a8efdfa58e35)
+        ;
+
+        
+    
+    
+            var marker_2eee5ebe491e8a4e8010224c378d9a6b = L.marker(
+                [42.29259, -71.04314],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_f72d3c31a1a56cb4eab4db0342b25a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1301f501cf828731b0e4c26d4b89a9f = $(`<div id="html_c1301f501cf828731b0e4c26d4b89a9f" style="width: 100.0%; height: 100.0%;">Tenean Beach (7.88 km)</div>`)[0];
+                popup_f72d3c31a1a56cb4eab4db0342b25a93.setContent(html_c1301f501cf828731b0e4c26d4b89a9f);
+            
+        
+
+        marker_2eee5ebe491e8a4e8010224c378d9a6b.bindPopup(popup_f72d3c31a1a56cb4eab4db0342b25a93)
+        ;
+
+        
+    
+    
+            var marker_b3df3027d764c05ad2da0a412011fa5f = L.marker(
+                [42.42479, -70.98283],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_55c2737cd021547dfef7c1bdad48fd2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0e569b4de5bba0ea8d15999a1872fbe = $(`<div id="html_b0e569b4de5bba0ea8d15999a1872fbe" style="width: 100.0%; height: 100.0%;">Revere Beach (9.54 km)</div>`)[0];
+                popup_55c2737cd021547dfef7c1bdad48fd2b.setContent(html_b0e569b4de5bba0ea8d15999a1872fbe);
+            
+        
+
+        marker_b3df3027d764c05ad2da0a412011fa5f.bindPopup(popup_55c2737cd021547dfef7c1bdad48fd2b)
+        ;
+
+        
+    
+    
+            var marker_a48a7c75f0497dbd67a1e9e4b7074c87 = L.marker(
+                [42.28032, -71.01684],
+                {}
+            ).addTo(map_b602ccad3d07d9577ce74f11449eb0dc);
+        
+    
+        var popup_d2a014da7df7d839a086bc4c6aee69bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f645eec0229bb040841be8b7fc38c20d = $(`<div id="html_f645eec0229bb040841be8b7fc38c20d" style="width: 100.0%; height: 100.0%;">Wollaston Beach (9.82 km)</div>`)[0];
+                popup_d2a014da7df7d839a086bc4c6aee69bd.setContent(html_f645eec0229bb040841be8b7fc38c20d);
+            
+        
+
+        marker_a48a7c75f0497dbd67a1e9e4b7074c87.bindPopup(popup_d2a014da7df7d839a086bc4c6aee69bd)
+        ;
+
+        
+    
+</script>
+</html>
